@@ -1,0 +1,31 @@
+# Ignore venv (Python virtual environment)
+venv/
+
+# Ignore pycache directories
+__pycache__/
+
+# Ignore local development configuration files
+*.env
+*.env.local
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore editor backup files
+*~
+*.bak
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore package installation files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
